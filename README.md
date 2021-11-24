@@ -7,8 +7,14 @@
 		<ul>
 			<li><h5>i)    : composer update</h5></li>
 			<li><h5>ii)   : php artisan migrate</h5></li>
+			<li><h5>ii)   : npm install</h5></li>
 		</ul>
 	</li>
+	<li>To start the Project</li>
+	<ul>
+		<li>open the Terminal and hit the command : php artisan serve</li>
+		<li>open the new Terminal and hit the command : npm run dev</li>
+	</ul>
 	<li>Notes to Make model,controller,middleware,migrations</li>
 	<ul>
 		<li>To Make Model : php artisan make:model modelName -m</li>
@@ -16,11 +22,6 @@
 		<li>To Make Controller for an Web : php artisan make:controller WEB/WebControllerName</li>
 		<li>To Make Migration : php artisan make:migration MigrationName</li>
 		<li>To Make MiddleWare : php artisan make:middleware MiddleWareName</li>
-	</ul>
-	<li>To start the Project</li>
-	<ul>
-		<li>open the Terminal and hit the command : php artisan serve</li>
-		<li>open the new Terminal and hit the command : npm run dev</li>
 	</ul>
 </ul>
 
